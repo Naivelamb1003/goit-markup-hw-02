@@ -1,0 +1,40 @@
+/*цвет основного текста #212121
+ вторичный цвет #757575
+ вторичній цвет линки #AFB1B8
+ вторичній цвет фона #AFB1B8
+ цвет фона футера #2F303A
+ белый #FFFFFF
+ акцент #2196F3*/
+
+body {
+  color: #212121;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  color: #000000;
+}
+
+.logo-text {
+  color: #2196f3;
+}
+
+/*site-nav*/
+
+.site-nav .link {
+  color: #000000;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
