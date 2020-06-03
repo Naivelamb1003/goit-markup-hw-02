@@ -15,6 +15,11 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+/* Site header */
 .logo {
   color: #000000;
 }
@@ -34,7 +39,91 @@ ul {
   color: #2196f3;
 }
 
+.us:hover,
+.us:focus {
+  color: #2196f3;
+}
+
+/*Said bar*/
+
+.title {
+  color: #ffffff;
+}
+
 .button {
   color: #ffffff;
   background-color: #2196f3;
+}
+/*Benefits*/
+
+.features-title {
+  color: #212121;
+}
+
+.features-item p {
+  color: #757575;
+}
+
+/*specialization*/
+
+.section-specialization h2 {
+  color: #212121;
+}
+
+.specialization-list p {
+  color: #ffffff;
+}
+/*team*/
+.section-team {
+  color: #f5f4fa;
+}
+
+.section-team h2 {
+  color: #212121;
+}
+
+.team-item h3 {
+  color: #212121;
+}
+
+.team-item p {
+  color: #757575;
+}
+
+.socials a {
+  color: #afb1b8;
+}
+
+/*customers*/
+.section-customers h2 {
+  color: #212121;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+.footer-address {
+  color: #ffffff;
+}
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link h3 {
+  color: #ffffff;
+}
+
+.footer-text {
+  color: #ffffff;
+}
+
+.footer-slogan {
+  color: rgba(255, 255, 255, 0.4);
 }
