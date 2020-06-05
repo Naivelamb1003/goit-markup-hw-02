@@ -1,14 +1,22 @@
-/*цвет основного текста #212121
- вторичный цвет #757575
- вторичній цвет линки #AFB1B8
- вторичній цвет фона #AFB1B8
- цвет фона футера #2F303A
+/*цвет основного текста #757575
  белый #FFFFFF
- акцент #2196F3*/
+ вторичный цвет черный #212121
+ акцент #2196F3
+ вторичный цвет #AFB1B8
+ вторичный цвет фона #AFB1B8
+ цвет фона футера #2F303A
+  */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-fon-color: #ffffff;
+}
 
 body {
-  color: #212121;
-  background-color: #ffffff;
+  color: var(--primary-text-color);
+  background-color: var(--primary-fon-color);
 }
 
 ul {
@@ -19,87 +27,74 @@ a {
   text-decoration: none;
 }
 
-/* Site header */
+/* logo */
+
 .logo {
   color: #000000;
 }
 
 .logo-text {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-/*site-nav*/
+/* Site header */
 
 .site-nav .link {
-  color: #000000;
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-.us:hover,
-.us:focus {
-  color: #2196f3;
+.contact .us {
+  color: var(--primary-text-color);
 }
 
-/*Said bar*/
+.contact .us:hover,
+.contact .link:focus {
+  color: var(--accent-color);
+}
 
-.title {
-  color: #ffffff;
+/* Said bar */
+.container .title {
+  color: var(--primary-fon-color);
+  background-color: teal; /* todo real background*/
 }
 
 .button {
-  color: #ffffff;
-  background-color: #2196f3;
-}
-/*Benefits*/
-
-.features-title {
-  color: #212121;
+  color: var(--primary-fon-color);
+  background-color: var(--accent-color);
 }
 
-.features-item p {
-  color: #757575;
+/* features */
+
+.section-title {
+  color: var(--title-text-color);
 }
 
-/*specialization*/
-
-.section-specialization h2 {
-  color: #212121;
+.features-list .title {
+  color: var(--title-text-color);
 }
 
-.specialization-list p {
-  color: #ffffff;
-}
-/*team*/
-.section-team {
-  color: #f5f4fa;
+/* specialization */
+
+.specialization-list .text {
+  color: var(--primary-fon-color);
+  background-color: teal; /* todo real background*/
 }
 
-.section-team h2 {
-  color: #212121;
+/* Our team */
+.section team {
+  background-color: #f5f4fa;
 }
 
-.team-item h3 {
-  color: #212121;
+.team-list .title {
+  color: var(--title-text-color);
 }
 
-.team-item p {
-  color: #757575;
-}
-
-.socials a {
-  color: #afb1b8;
-}
-
-/*customers*/
-.section-customers h2 {
-  color: #212121;
-}
-
-/*footer*/
+/* footer */
 
 .footer {
   background-color: #2f303a;
