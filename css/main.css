@@ -31,10 +31,20 @@ a {
 
 .logo {
   color: #000000;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26 px;
+  line-height: 31 px;
 }
 
 .logo-text {
   color: var(--accent-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26 px;
+  line-height: 31 px;
 }
 
 /* Site header */
@@ -121,4 +131,28 @@ a {
 
 .footer-slogan {
   color: rgba(255, 255, 255, 0.4);
+}
+
+/*portfolio-button*/
+
+.portfolio-button a {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+
+.portfolio-button a:hover,
+.portfolio-button:focus {
+  color: var(--primary-fon-color);
+  background-color: var(--accent-color);
+}
+
+/*portfolio*/
+
+.portfolio-list .title {
+  color: var(--title-text-color);
+}
+
+.portfolio-list .text {
+  color: var(--primary-fon-color);
+  background-color: teal; /* todo real background*/
 }
