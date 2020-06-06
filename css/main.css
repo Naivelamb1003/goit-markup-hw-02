@@ -17,6 +17,13 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-fon-color);
+
+  font-family:Roboto; sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 ul {
@@ -31,11 +38,11 @@ a {
 
 .logo {
   color: #000000;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26 px;
-  line-height: 31 px;
+  font-family:Raleway;
+  font-style:normal;
+  font-weight:bold;
+  font-size: 26px;
+  line-height: 2;
 }
 
 .logo-text {
@@ -43,14 +50,20 @@ a {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
-  font-size: 26 px;
-  line-height: 31 px;
+  font-size: 26px;
+  line-height: 2;
 }
 
 /* Site header */
 
 .site-nav .link {
   color: var(--title-text-color);
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -60,6 +73,13 @@ a {
 
 .contact .us {
   color: var(--primary-text-color);
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+
 }
 
 .contact .us:hover,
@@ -71,21 +91,56 @@ a {
 .container .title {
   color: var(--primary-fon-color);
   background-color: teal; /* todo real background*/
+
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .button {
   color: var(--primary-fon-color);
   background-color: var(--accent-color);
+
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* features */
 
 .section-title {
   color: var(--title-text-color);
+
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
 }
 
-.features-list .title {
+.features-list .title,
+.subtitle,
+.footer-text {
   color: var(--title-text-color);
+
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
 }
 
 /* specialization */
@@ -93,6 +148,15 @@ a {
 .specialization-list .text {
   color: var(--primary-fon-color);
   background-color: teal; /* todo real background*/
+
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
 }
 
 /* Our team */
@@ -102,6 +166,23 @@ a {
 
 .team-list .title {
   color: var(--title-text-color);
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+}
+
+.team-list .text{
+
+font-family: Roboto;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
 }
 
 /* footer */
@@ -135,13 +216,20 @@ a {
 
 /*portfolio-button*/
 
-.portfolio-button a {
+.portfolio-button button {
   color: var(--title-text-color);
   background-color: #f5f4fa;
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.portfolio-button a:hover,
-.portfolio-button:focus {
+.portfolio-button button:hover,
+.portfolio-button button:focus {
   color: var(--primary-fon-color);
   background-color: var(--accent-color);
 }
@@ -150,9 +238,30 @@ a {
 
 .portfolio-list .title {
   color: var(--title-text-color);
+
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-list .caption{
+
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
 
 .portfolio-list .text {
   color: var(--primary-fon-color);
   background-color: teal; /* todo real background*/
+
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
 }
+
+
