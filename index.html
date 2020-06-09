@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viemport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"/>
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
@@ -21,19 +21,19 @@
                     <a href="./index.html" class="logo"><span class="logo-text">Web</span> Studio</a>
                 </li>
                 <li>
-                    <a href="#" class="link">Студия</a>
+                    <a href="./index.html" class="link style-header"><span class="nav-text">Студия</span></a>
                 </li>
                 <li>
-                    <a href="portfolio.html" class="link">Портфолио</a>
+                    <a href="portfolio.html" class="link style-header">Портфолио</a>
                 </li>
                 <li>
-                    <a href="#" class="link">Контакты</a>
+                    <a href="#" class="link style-header">Контакты</a>
                 </li>
             </ul>
         </nav>
         <address class="contact">
-            <a href="mailto:info@devstudio.com" class="us"> info@devstudio.com</a>
-            <a href="tel:+380961111111" class="us"> +380961111111</a>
+            <a href="mailto:info@devstudio.com" class="us style-header"> info@devstudio.com</a>
+            <a href="tel:+380961111111" class="us style-header"> +380961111111</a>
         </address>
 
     </header>
@@ -51,28 +51,28 @@
             <ul class="features-list">
                 <li>
                     <img src="./images/main/Vector.svg" alt="антена" width="70">
-                    <h3 class="title"> Внимание к деталям </h3>
+                    <h3 class="title text-style"> Внимание к деталям </h3>
                     <p> Идейные соображения, а также начало повседневной работы по формированию
                         позиции.</p>
                 </li>
 
                 <li>
                     <img src="./images/main/Vector1.svg" alt="время" width="70">
-                    <h3 class="title"> Пунктуальность </h3>
+                    <h3 class="title text-style"> Пунктуальность </h3>
                     <p> Задача организации, в особенности же рамки и место обучения кадров влечет
                         за собой.</p>
                 </li>
 
                 <li>
                     <img src="./images/main/Vector2.svg" alt="ноутбук" width="50">
-                    <h3 class="title"> Планирование </h3>
+                    <h3 class="title text-style"> Планирование </h3>
                     <p> Равным образом консультация с широким активом в значительной степени
                         обуславливает.</p>
                 </li>
 
                 <li>
                     <img src="./images/main/Vector3.svg" alt="астронавт" width="60">
-                    <h3 class="title"> Современные технологии </h3>
+                    <h3 class="title text-style"> Современные технологии </h3>
                     <p> Значимость этих проблем настолько очевидна, что реализация плановых
                         заданий.</p>
                 </li>
@@ -84,15 +84,15 @@
             <ul class="specialization-list">
                 <li>
                     <img src="./images/main/img.jpg" alt="ноутбук" width="370">
-                    <p class="text">Десктопные приложения</p>
+                    <p class="text text-style">Десктопные приложения</p>
                 </li>
                 <li>
                     <img src="./images/main/box.jpg" alt="мобильный телефон" width="370">
-                    <p class="text"> Мобильные приложения </p>
+                    <p class="text text-style"> Мобильные приложения </p>
                 </li>
                 <li>
                     <img src="./images/main/img1.jpg" alt="екран" width="370">
-                    <p class="text"> Дизайнерские решения </p>
+                    <p class="text text-style"> Дизайнерские решения </p>
                 </li>
             </ul>
         </section>
@@ -212,18 +212,18 @@
     <footer class="footer">
 
         <div>
-            <a href="#" class="logo"><span class="logo-text">Web</span> Studio</a>
+            <a href="#" class="logo-footer"><span class="logo-text">Web</span> Studio</a>
             <p class="footer-address">
                 г. Киев, пр-т Леси Украинки, 26
             </p>
-            <p class="contact">
-                info@devstudio.com<br />
-                +380961111111<br />
-            </p>
+            <address class="contact">
+                <a href="mailto:info@devstudio.com" class="us"> info@devstudio.com</a>
+                <a href="tel:+380961111111" class="us"> +380961111111</a>
+            </address>
         </div>
 
         <div class="footer-link">
-            <h3 class="subtitle">присоединяйтесь</h3>
+            <h3 class="subtitle text-style">присоединяйтесь</h3>
             <ul class="item">
 
                 <li class="footer-links" class="footer-links">
@@ -242,11 +242,11 @@
         </div>
 
         <div>
-            <p class="footer-text">Подпишитесь на рассылку</p>
+            <p class="footer-text text-style">Подпишитесь на рассылку</p>
         </div>
 
         <div>
-            <p class="button">Подписаться</p>
+            <button class="button">Подписаться</button>
         </div>
 
         <div>

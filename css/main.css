@@ -1,17 +1,32 @@
-/*цвет основного текста #757575
- белый #FFFFFF
- вторичный цвет черный #212121
- акцент #2196F3
- вторичный цвет #AFB1B8
- вторичный цвет фона #AFB1B8
- цвет фона футера #2F303A
-  */
 
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-fon-color: #ffffff;
+  --address-text-color: #757575;
+  --link-text-color:#212121;
+  
+
+}
+
+/*Стили текста*/
+
+.style-header{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02rem;
+}
+
+.text-style{
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03rrem;
+  text-transform: uppercase;
 }
 
 body {
@@ -23,7 +38,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03rem;
 }
 
 ul {
@@ -47,43 +62,32 @@ a {
 
 .logo-text {
   color: var(--accent-color);
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 2;
+
 }
 
 /* Site header */
 
-.site-nav .link {
-  color: var(--title-text-color);
-
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.4;
-  letter-spacing: 0.02em;
+ .link {
+  color: var(--link-text-color);
+  
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.nav-text{
+color: var(--accent-color);
+}
+
+ .link:hover,
+ .link:focus {
   color: var(--accent-color);
 }
 
-.contact .us {
-  color: var(--primary-text-color);
-
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.4;
-  letter-spacing: 0.02em;
+ .us {
+  color: var(--address-text-color);
 
 }
 
-.contact .us:hover,
-.contact .link:focus {
+ .us:hover,
+ .link:focus {
   color: var(--accent-color);
 }
 
@@ -97,7 +101,7 @@ a {
   font-size: 44px;
   line-height: 1.4;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.06rem;
   text-transform: uppercase;
 }
 
@@ -112,7 +116,7 @@ a {
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.06rem;
 }
 
 /* features */
@@ -125,7 +129,7 @@ a {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03rem;
 
 }
 
@@ -134,13 +138,6 @@ a {
 .footer-text {
   color: var(--title-text-color);
 
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
 }
 
 /* specialization */
@@ -148,14 +145,8 @@ a {
 .specialization-list .text {
   color: var(--primary-fon-color);
   background-color: teal; /* todo real background*/
-
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
   text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  
 
 }
 
@@ -172,7 +163,7 @@ a {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03rem;
 
 }
 
@@ -182,7 +173,7 @@ font-family: Roboto;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
-letter-spacing: 0.03em;
+letter-spacing: 0.03rem;
 }
 
 /* footer */
@@ -193,6 +184,11 @@ letter-spacing: 0.03em;
 
 .logo-footer {
   color: #ffffff;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 2;
 }
 
 .footer-address {
@@ -225,7 +221,7 @@ letter-spacing: 0.03em;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03rem;
 }
 
 .portfolio-button button:hover,
@@ -243,7 +239,7 @@ letter-spacing: 0.03em;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.06rem;
 }
 
 .portfolio-list .caption{
@@ -251,7 +247,7 @@ letter-spacing: 0.03em;
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03rem;
 }
 
 .portfolio-list .text {
@@ -261,7 +257,7 @@ letter-spacing: 0.03em;
   font-family: Roboto;
   font-size: 18px;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03rem;
 }
 
 
