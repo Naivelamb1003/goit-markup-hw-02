@@ -93,18 +93,8 @@ color: var(--accent-color);
 
 /* Said bar */
 .container-img{
-  /* max-width: 1600px; */
-  /* height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-position: center; */
   background-color:  var(--primary-text-color);
 }
-
-/* .container-img .container{
-  padding: 200px 15px;
-  text-align: center;
-} */
 
 .container-img .title {
   
@@ -120,13 +110,6 @@ color: var(--accent-color);
 }
 
 .button {
-
-  /* margin-left: auto;
-  margin-right: auto;
-  min-width: 200px;
-  padding: 10px 31px;
-  border: 1px solid transparent;
-  border-radius: 6px; */
 
   color: var(--primary-fon-color);
   background-color: var(--accent-color);
